@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <time></time>
+        <script src="javascript/add.js"> </script>
+        <link rel="stylesheet" href="addst.css">
+
+    </head>
+    <body>
+
+      <h1>Add stock to existing Medicine</h1>
+
+        Enter Medicine name <input type="text" id="name">
+        <button class="enter" type="submit" onclick="getRecordByName()">Enter</button><br>
+
+        <div class="container">
+            <table class="table" border="1px">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>Stock</th>
+                  <th>Price</th>
+                  <th>Add</th>
+                </tr>
+              </thead>
+              <tbody id="data">
+          
+              </tbody>
+            </table>
+          </div>
+          <h3 id = "addstock"></h3>
+          <a href="index.html">Home</a>
+
+    </body>
+</html>

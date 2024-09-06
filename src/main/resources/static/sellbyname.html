@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <time></time>
+        <script src="javascript/sell.js">  </script>
+        <link rel="stylesheet" href="sell.css">
+
+    </head>
+    <body>
+
+      <h1>Sell Medicine</h1>
+
+        Enter Medicine name <input type="text" id="name">
+        <button type="submit" class="button enter" onclick="getRecordByName()">Enter</button><br>
+
+        <div class="container">
+            <table class="table" border="1px">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>Stock</th>
+                  <th>Price</th>
+                  <th style="width: 400px; text-align: center;">Sell</th>
+                </tr>
+              </thead>
+              <tbody id="data">
+          
+              </tbody>
+            </table>
+          </div>
+          <h3 id = "sellh"></h3>
+          <a href="index.html">Home</a>
+
+    </body>
+</html>

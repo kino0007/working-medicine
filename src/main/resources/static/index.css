@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(163, 255, 127);
+}
+
+a{
+    text-decoration-color: black;
+}
+
+.body{
+    margin-top: 200px;
+}
+
+.tital{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(45, 130, 235);
+    padding: 10px;
+}
+
+.main{
+    
+    text-align: center;
+    margin: 25px 367px;
+    width: 50%;
+    border: 3px solid rgb(45, 130, 235);
+    padding: 10px;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+}
+.getall{
+    
+    margin-right: 50px;
+    width: 25%;
+    border: 3px solid rgb(45, 130, 235);
+    padding: 10px 50px;
+    width: 100px;
+}
+.getall:hover {
+    background-color: rgba(236, 220, 98, 0.956);
+}
+
+.new{
+    
+    margin-left: 50px;
+    width: 25%;
+    border: 3px solid rgb(45, 130, 235);
+    padding: 10px 50px;
+    width: 100px;
+}
+.new:hover {
+    background-color: rgba(236, 220, 98, 0.956);
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sell{
+
+    margin-right: 50px;
+    width: 25%;
+    border: 3px solid rgb(45, 130, 235);
+    padding: 10px 50px;
+    width: 100px;
+}
+.sell:hover {
+    background-color: rgba(236, 220, 98, 0.956);
+}
+
+.update{
+    
+    margin-left: 50px;
+    width: 25%;
+    border: 3px solid rgb(45, 130, 235);
+    padding: 10px 50px;
+    width: 100px;
+}
+.update:hover {
+    background-color: rgba(236, 220, 98, 0.956);
+}
+
+a{
+    text-decoration: none;
+    font:  sans-serif;
+    color: black;
+}
